@@ -82,7 +82,7 @@ try: # validamos que solo ingrese enteros
     tiempo_lista_unica=BuscaElementosEnListaUnica(busqueda, usuario, tipo)
     print("Tiempo lista única : ", tiempo_lista_unica, " ms")
 except:
-    print("Haz introducido una entrada que no es un número")
+    print("Haz introducido una entrada que no es del mismo tipo de dato usado para la lista de objetos")
 
 
 
